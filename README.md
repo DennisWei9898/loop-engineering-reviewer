@@ -77,6 +77,14 @@ Then spawn the `loop-engineering-reviewer` subagent to run an audit in isolation
 | L6 | Success metric = adoption rate | track how often output is accepted, not just tokens |
 | L7 | Guard the three traps | silent failure / comprehension debt / cognitive surrender |
 
+### See it in action
+
+[`examples/scorecard-sample.md`](examples/scorecard-sample.md) — a full sample scorecard: L1–L7 verdicts with quoted evidence, the 80/20 question triage (3 questions first, not 50), and the "fix compliance, never your voice" proposal.
+
+### Related
+
+Sister project: [fable-commander](https://github.com/DennisWei9898/fable-commander) — run your task with a commander workflow (plan → delegated research → maker/verifier loop), then audit the loop itself with this reviewer.
+
 ### Credit
 
 The rubric is entirely from Addy Osmani's [Loop Engineering](https://addyosmani.com/blog/loop-engineering/) (also on O'Reilly Radar). This tool just lands it as a runnable review flow.
@@ -145,6 +153,14 @@ cp loop-engineering-reviewer.agent.md ~/.claude/agents/loop-engineering-reviewer
 | L6 | 成功指標＝採納率 | 記錄產出被採納的比例，不是只看 token |
 | L7 | 防三大陷阱 | 無聲失敗 / 理解債 / 認知投降 各有對策 |
 
+### 實際長什麼樣
+
+[`examples/scorecard-sample.md`](examples/scorecard-sample.md) —— 一份完整範例計分卡：L1–L7 逐條判定 + 原文證據、八二法則提問分流（先問 3 題，不是 50 題轟炸）、「只修合規不碰風格」的修正提案。
+
+### 姊妹作
+
+[fable-commander](https://github.com/DennisWei9898/fable-commander) —— 用指揮官工作流跑任務（規劃 → 委派研究 → maker/verifier 迴圈），再用本 reviewer 回頭體檢迴圈本身。
+
 ### 致謝
 
 量尺全部來自 Addy Osmani 的《[Loop Engineering](https://addyosmani.com/blog/loop-engineering/)》（O'Reilly Radar 亦有轉載）。本工具只是把它落地成一份可執行的審查流程。
@@ -152,6 +168,15 @@ cp loop-engineering-reviewer.agent.md ~/.claude/agents/loop-engineering-reviewer
 ### 授權
 
 MIT —— 自由使用、修改、分享。
+
+---
+
+## Contact · 合作聯絡
+
+Open to collaboration on AI agent workflows.
+對 AI agent 工作流的合作提案持開放態度，歡迎聯繫。
+
+📧 [dennis.xd.wei@gmail.com](mailto:dennis.xd.wei@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/dennis-wei-47393a14a/)
 
 ---
 
